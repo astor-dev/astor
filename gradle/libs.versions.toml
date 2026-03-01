@@ -3,7 +3,6 @@ kotlin = "2.3.20-RC"
 kotlinx-serialization = "1.10.0"
 agp = "9.0.1"
 spring-boot = "4.0.3"
-spring-dependency-management = "1.1.7"
 kotlin-logging = "7.0.14"
 
 [plugins]
@@ -13,7 +12,6 @@ kotlin-android-multiplatform = { id = "com.android.kotlin.multiplatform.library"
 android-application = { id = "com.android.application", version.ref = "agp" }
 kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
 spring-boot = { id = "org.springframework.boot", version.ref = "spring-boot" }
-spring-dependency-management = { id = "io.spring.dependency-management", version.ref = "spring-dependency-management" }
 kotlin-jpa = { id = "org.jetbrains.kotlin.plugin.jpa", version.ref = "kotlin" }
 kotlin-spring = { id = "org.jetbrains.kotlin.plugin.spring", version.ref = "kotlin" }
 
@@ -21,10 +19,9 @@ kotlin-spring = { id = "org.jetbrains.kotlin.plugin.spring", version.ref = "kotl
 # kotlin
 kotlinx-serialization-json = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "kotlinx-serialization" }
 kotlin-logging = { module = "io.github.oshai:kotlin-logging", version.ref = "kotlin-logging" }
-# artifacts
 agp-gradle-plugin = { group = "com.android.tools.build", name = "gradle", version.ref = "agp" }
 kotlin-gradle-plugin = { group = "org.jetbrains.kotlin", name = "kotlin-gradle-plugin", version.ref = "kotlin" }
 spring-boot-gradle-plugin = { group = "org.springframework.boot", name = "spring-boot-gradle-plugin", version.ref = "spring-boot" }
-spring-dependency-management-plugin = { group = "io.spring.gradle", name = "dependency-management-plugin", version.ref = "spring-dependency-management" }
 kotlin-allopen-plugin = { group = "org.jetbrains.kotlin", name = "kotlin-allopen", version.ref = "kotlin" }
 kotlin-noarg-plugin = { group = "org.jetbrains.kotlin", name = "kotlin-noarg", version.ref = "kotlin" }
+spring-boot-dependencies = { module = "org.springframework.boot:spring-boot-dependencies", version.ref = "spring-boot" }

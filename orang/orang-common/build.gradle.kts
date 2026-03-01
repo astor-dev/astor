@@ -1,5 +1,5 @@
 plugins {
-    id("astor.kmp")
+    id("astor.kmp.jvm")
     id("astor.kmp.android")
 }
 

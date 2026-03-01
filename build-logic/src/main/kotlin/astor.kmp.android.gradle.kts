@@ -1,5 +1,5 @@
 plugins {
-    id("org.jetbrains.kotlin.multiplatform")
+    id("astor.kmp")
     id("com.android.kotlin.multiplatform.library")
 }
 

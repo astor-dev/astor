@@ -1,7 +1,7 @@
 import org.jetbrains.kotlin.gradle.plugin.KotlinJsCompilerType
 
 plugins {
-    id("org.jetbrains.kotlin.multiplatform")
+    id("astor.kmp")
 }
 
 kotlin {
